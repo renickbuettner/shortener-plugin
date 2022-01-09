@@ -1,0 +1,9 @@
+{
+  "name": "renick/shortener-plugin",
+  "type": "october-plugin",
+  "description": "Deep simple url shortener for OctoberCMS",
+  "require": {
+    "composer/installers": "~1.0",
+    "october/system": "^2.1"
+  }
+}

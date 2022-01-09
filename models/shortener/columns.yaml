@@ -1,0 +1,33 @@
+columns:
+    slug:
+        label: 'renick.shortener::lang.model.slug'
+        type: text
+        searchable: true
+        sortable: true
+    _counter:
+        label: 'renick.shortener::lang.model.counter'
+        type: number
+        searchable: false
+        sortable: true
+    target:
+        label: 'renick.shortener::lang.model.target'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'renick.shortener::lang.model.updated_at'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: 'renick.shortener::lang.model.updated_at'
+        type: datetime
+        sortable: true
+    deleted_at:
+        label: 'renick.shortener::lang.model.deleted_at'
+        type: datetime
+        sortable: true
+    meta:
+        label: meta
+        type: text
+        searchable: false
+        sortable: false

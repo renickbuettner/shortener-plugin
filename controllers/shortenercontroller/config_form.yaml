@@ -1,0 +1,10 @@
+name: 'renick.shortener::lang.plugin.menu_item'
+form: $/renick/shortener/models/shortener/fields.yaml
+modelClass: Renick\Shortener\Models\Shortener
+defaultRedirect: renick/shortener/shortenercontroller
+create:
+    redirect: 'renick/shortener/shortenercontroller/update/:id'
+    redirectClose: renick/shortener/shortenercontroller
+update:
+    redirect: renick/shortener/shortenercontroller
+    redirectClose: renick/shortener/shortenercontroller

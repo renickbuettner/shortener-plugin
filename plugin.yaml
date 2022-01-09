@@ -1,0 +1,11 @@
+plugin:
+    name: 'renick.shortener::lang.plugin.name'
+    description: 'Deep simple url shortener for OctoberCMS.'
+    author: 'Renick Büttner'
+    icon: oc-icon-chain-broken
+    homepage: 'https://renick.io'
+navigation:
+    menu-shortener:
+        label: 'renick.shortener::lang.plugin.menu_item'
+        url: renick/shortener/shortenercontroller
+        icon: icon-unlink

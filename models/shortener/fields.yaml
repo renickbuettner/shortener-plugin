@@ -1,0 +1,29 @@
+fields:
+    slug:
+        label: 'renick.shortener::lang.model.slug'
+        comment: 'renick.shortener::lang.hints.slug'
+        span: storm
+        cssClass: col-md-4
+        type: text
+    target:
+        label: 'renick.shortener::lang.model.target'
+        comment: 'renick.shortener::lang.hints.target'
+        span: storm
+        cssClass: col-md-8
+        type: text
+tabs:
+    fields:
+        _short_url:
+            label: 'renick.shortener::lang.model.short_url'
+            span: storm
+            cssClass: col-12
+            readOnly: 1
+            type: text
+            tab: 'renick.shortener::lang.model.results'
+        _counter:
+            label: 'renick.shortener::lang.model.counter'
+            span: storm
+            cssClass: col-12
+            readOnly: 1
+            type: text
+            tab: 'renick.shortener::lang.model.results'
