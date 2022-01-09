@@ -16,6 +16,6 @@ class ShortenerController extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('renick.Shortener', 'menu-shortener');
+        BackendMenu::setContext('Renick.Shortener', 'menu-shortener');
     }
 }
