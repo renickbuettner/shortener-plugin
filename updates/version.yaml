@@ -1,3 +1,5 @@
 1.0.0:
     - 'MVP of url shortener, just basic functionalities.'
     - setup.php
+1.0.1:
+    - 'Tested with OctoberCMS v3.1'
