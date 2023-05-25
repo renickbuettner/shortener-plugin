@@ -4,7 +4,7 @@
   "description": "Deep simple url shortener for OctoberCMS",
   "require": {
     "composer/installers": "~1.0",
-    "october/system": "^2.1"
+    "october/system": "^2.1|^3.1"
   },
   "minimum-stability": "dev"
 }
